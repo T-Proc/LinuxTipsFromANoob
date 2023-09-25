@@ -51,6 +51,6 @@ then the action you want to do in {}<br>
 Now we want to print the PID which is the first string before a space (The Field Separator(FS))<br>
 Luckily the PID is the first so we just tell it to print the first! with print $1 (variable 1)<br>
 
-having the ps -e command and awk in backticks (prime) ` ` means it will forward the output to the beginning kill command (our end goal)<br>
+having the ps -e command and awk in backticks (prime) \` ` means it will forward the output to the beginning kill command (our end goal)<br>
 
 <h1>DONE!</h1>
