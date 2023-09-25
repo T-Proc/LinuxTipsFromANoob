@@ -20,7 +20,7 @@ make executable<br>
 chmod +x example # make it executable
 ```
 
-I'll run it 3 times<br>
+I'll run it a bunch of times<br>
 ```
 for i in {1..10}; do ./example; done
 ```
