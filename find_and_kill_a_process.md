@@ -1,12 +1,12 @@
-#Find and kill a process
+<h1>Find and kill a process</h1>
 
-##Requirements:
+<h2>Requirements:</h2>
 
-###Know what you are looking for
+<h3>Know what you are looking for</h3>
 
 I am going to make a test script
 
-#File: example
+<h1>File: example</h1>
 ```
 #!/bin/bash
 #Sleep for 10 Minutes in seconds, The ampersand(&) makes it run in the background 
@@ -52,4 +52,4 @@ Luckily the PID is the first so we just tell it to print the first! with print $
 
 having the ps -e command and awk in backticks (prime) ` ` means it will forward the output to the beginning kill command (our end goal)
 
-###DONE!
+<h1>DONE!</h1>
